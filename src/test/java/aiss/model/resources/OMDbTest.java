@@ -12,7 +12,7 @@ public class OMDbTest {
 
 	@Test
 	public void getMoviesTest() throws UnsupportedEncodingException {
-		String title = "Star Wars";
+		String title = "star wars";
 		OMDbResource movie = new OMDbResource();
 		MovieSearch omdbResults = movie.getMovies(title);
 		
